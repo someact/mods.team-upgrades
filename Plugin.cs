@@ -1,4 +1,4 @@
-﻿using BepInEx;
+using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 using REPOTeamBoosters.Patches;
@@ -45,6 +45,11 @@ namespace REPOTeamBoosters
                     "Map Player Count Upgrade"
                 ),
                 (
+                Configuration.EnableItemUpgradePlayerCrouchRestPatch,
+                    () => harmony.PatchAll(typeof(ItemUpgradePlayerCrouchRestPatch)),
+                    "Player Crouch Rest Upgrade"
+                ),
+                (
                 Configuration.EnableItemUpgradePlayerEnergyPatch,
                     () => harmony.PatchAll(typeof(ItemUpgradePlayerEnergyPatch)),
                     "Player Energy Upgrade"
@@ -83,6 +88,11 @@ namespace REPOTeamBoosters
                     Configuration.EnableItemUpgradePlayerTumbleLaunchPatch,
                     () => harmony.PatchAll(typeof(ItemUpgradePlayerTumbleLaunchPatch)),
                     "Player Thumle Lauch Upgrade"
+                ),
+                (
+                    Configuration.EnableItemUpgradePlayerTumbleWingsPatch,
+                    () => harmony.PatchAll(typeof(ItemUpgradePlayerTumbleWingsPatch)),
+                    "Player Thumle Wings Upgrade"
                 ),
             };
 
