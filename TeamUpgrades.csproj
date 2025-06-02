@@ -72,6 +72,8 @@
     <Compile Include="Patches\ItemUpgradePlayerHealthPatch.cs" />
     <Compile Include="Patches\ItemUpgradePlayerTumbleLaunchPatch.cs" />
     <Compile Include="Patches\ItemUpgradePlayerSprintSpeedPatch.cs" />
+    <Compile Include="Patches\ItemUpgradePlayerTumbleWingsPatch.cs" />
+    <Compile Include="Patches\ItemUpgradePlayerCrouchRestPatch.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
