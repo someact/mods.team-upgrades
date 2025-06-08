@@ -15,3 +15,4 @@ Make sure you set the path in .csproj correctly
 Or make new folder in mod and copy .dll to your new folder then change folder name to "YourPath"
 # Credits
 EvilCheetah   [Github](https://github.com/EvilCheetah), [Mods Page](https://github.com/EvilCheetah/repo.mods/tree/mods.team-upgrades), [Thunderstore](https://thunderstore.io/c/repo/p/EvilCheetah/TeamUpgrades/)
+
